@@ -1,7 +1,7 @@
-
+% This script finds the forward, centered, and backwards approximation of the function's 1st and 2nd derivatives, and graphs them.
 syms x
 
-f(x) = x^3-2*x+4;
+f(x) = x^3-2*x+4; %function you are approximating
 f1 = diff(f);
 f2 = diff(f,2);
 h = .25;
